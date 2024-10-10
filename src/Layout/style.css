@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden; 
+}
+
+body {
+    /* display: flex; */
+    height: 100vh;
+    background-color: #f7f7f7; /* Optional background color */
+}
+
+/* Left Sidebar styling */
+.left-sidebar {
+    background-color: #fff; /* Sidebar background color */
+    width: 80px; /* Sidebar width */
+    padding: 0px 0; /* Vertical padding */
+    display: inline-block;
+    /* flex-direction: column; */
+    justify-content: flex-start; /* Align items from the top */
+     /* align-items: center; Center items horizontally */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+    border-right: 4px solid #800000; /* Right border */
+    height: 700px; /* Stretch sidebar to full height */
+}
+
+.logo {
+    width: 50px; /* Logo size */
+    margin-bottom: 75px; /* Space below logo */
+    margin-left: 12px;
+    margin-top: 15px;
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+}
+
+nav ul li {
+    margin: 35px 0;
+    margin-left: 25px; /* Space between icons */
+    height: 30px;
+    
+}
+
+/* Main Content and Navbar styling */
+.main-content {
+    flex-grow: 1; /* Allow the main content to grow */
+    display: inline-block;
+    
+    /* max-height: 50px; */
+    /* flex-direction: column; Stack navbar and content vertically */
+    background-color: #E2E1C0;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    border-bottom: 4px solid #800000; /* Bottom border for the navbar */
+    width: calc(100vw - 160px); /* Full width minus both sidebars */
+    margin-bottom: 100px; /* Adjusted margin for better spacing */
+}
+
+.navbar-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+
+}
+
+.navbar-buttons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+
+}
+
+.navbar-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin-left: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-button img {
+    margin-right: 10px;
+}
+
+.bordered-button {
+    border: 2px solid #800000; /* Border for second and third buttons */
+}
+
+/* Icon image styling */
+.icon-image {
+    width: 30px; /* Size for the icon in the last container */
+    height: 30px; /* Size for the icon in the last container */
+    margin-left: 15px;
+}
+
+/* Right Sidebar styling */
+.right-sidebar {
+    background-color: #fff; /* Sidebar background color */
+    width: 80px; /* Sidebar width */
+    padding: 20px 0; /* Vertical padding */
+    /* display: inline-block; */
+    /* flex-direction: column; */
+    float: inline-end;
+    justify-content: flex-start; /* Align items from the top */
+    align-items: center; /* Center items horizontally */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+    border-left: 4px solid #800000; /* Left border */
+    height: 100%; /* Stretch sidebar to full height */
+}
+
+.container {
+    background-color: white; /* Container background color */
+    width: 400px; /* Width of each container (2 side by side with space) */
+    height: 150px; /* Fixed height for uniformity */
+    margin: 10px; /* Space between containers */
+    padding: 20px; /* Padding inside containers */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for containers */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center text */
+    border: 2px solid #800000; /* Border for the containers */
+}
+
+.container-row {
+    display: flex; /* Flexbox for row layout */
+    justify-content: center; /* Center containers horizontally */
+    width: 100%; /* Full width */
+    margin-bottom: 40px; /* Space between the first row and the second container */
+}
+
+.side-margin{
+    margin-right: 40px;
+}
+
+.container img {
+    max-width: 70%; /* Size for the image */
+    max-height: 70%; /* Maintain aspect ratio */
+    margin-bottom: 5px; /* Space below the image */
+}
+
+.container h4 {
+    font-size: 14px; /* Font size for headings */
+    color: #333; /* Heading color */
+    margin-top: 0; /* No margin above heading */
+}
