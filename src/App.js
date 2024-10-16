@@ -12,13 +12,13 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
+
     <Route path='/' Component={Overview}/>
     <Route path='/view_a' Component={View_a}/>
     <Route path='/view_b' Component={View_b}/>
     <Route path='/view_c' Component={View_c}/>
-    </Routes>
     
-
+    </Routes>
     </BrowserRouter>
     </>
   );

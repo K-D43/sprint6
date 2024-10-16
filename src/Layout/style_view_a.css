@@ -80,8 +80,6 @@ nav ul li img{
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    /* position: absolute; */
-    /* top: 0; */
     padding: 10px 20px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
     border-bottom: 4px solid #800000; /* Bottom border for the navbar */
@@ -248,16 +246,52 @@ font-size: 45px;
 }
 
 .box {
-    flex: 1; /*Divide space equally*/
-    height: 80px;
-    background-color: #E2E1C0;
-    margin: 5px;
+    padding: 4px;
+    /* flex: 1; Divide space equally */
+    /* height: 80px; */
+    /* background-color: #E2E1C0; */
+    /* margin: 5px; */
     display: flex;
     border:3px solid #800000;
     border-radius: 5px;
-    /* justify-content: center;
-    align-items:center; */
-    color: white;
+    /* justify-content: center; */
+    /* align-items: center; */
+    color: #800000;
     font-size: 18px;
     font-weight: bold;
+}
+/* progress bar */
+.progress-container {
+    width: 60%;
+    background-color: #ffffff;
+    border-radius: 25px;
+    height: 15px;
+    overflow: hidden;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: #800000;
+    width: 0;
+    transition: width 0.5s ease-in-out;
+}
+
+
+.units{
+    font-size: 11px;
+    height:40px;
+    color: #800000;
+}
+.box{
+    display: inline;
+}
+.kpiCard{
+    display: inline;
+    width: 100%;
+    
+}
+.kpiValue{
+    display: flex;
+
 }
