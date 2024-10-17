@@ -33,7 +33,7 @@ body {
      /* align-items: center; /*Center items horizontally */
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
     border-right: 4px solid #800000; /* Right border */
-    height: 900px; /*Stretch sidebar to full height */
+    height: 800px; /*Stretch sidebar to full height */
 }
 
 .logo {

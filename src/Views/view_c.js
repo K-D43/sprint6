@@ -133,10 +133,16 @@ function View_c() {
                 </div>
 
                 <div class="chart-container">
-                    <div class="chart-box">Chart 1</div>
-                    <div class="chart-box">Chart 2</div>
-                    <div class="chart-box">Chart 3</div>
-                    <div class="chart-box">Chart 4</div>
+                    <div class="chart-box">
+                        <iframe src='http://localhost:8056/' height='100%' width='100%' > </iframe>
+                    </div>
+                    <div class="chart-box">
+                        <iframe src='http://localhost:8056/' height='100%' width='100%' > </iframe>
+                    </div>
+                    <div class="chart-box">
+                        <iframe src='http://localhost:8056/' height='100%' width='100%' > </iframe>
+                    </div>
+
                 </div>
             </div>
         </>

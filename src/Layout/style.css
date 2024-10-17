@@ -1,13 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-y: hidden; 
+    
+
 }
 
 body {
     /* display: flex; */
     height: 100vh;
-    background-color: #ffffff; /* Optional background color */
+    background-color: #E2E1C0; /* Optional background color */
+    overflow: auto; 
+    scrollbar-color: #800000;
 }
 
 /* Left Sidebar styling */
@@ -68,7 +71,7 @@ nav ul li img{
 .main-content {
      flex-grow: 1; /*Allow the main content to grow */
     display: inline-block;
-    
+    scrollbar-color: #800000;
     /* max-height: 50px; */
     /* flex-direction: column; Stack navbar and content vertically */
     background-color: #E2E1C0;
