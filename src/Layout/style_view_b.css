@@ -1,8 +1,8 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     overflow-y: hidden; 
-}
+} */
 
 body {
     /* display: flex; */
@@ -71,7 +71,7 @@ nav ul li img{
     
     /* max-height: 50px; */
     /* flex-direction: column; Stack navbar and content vertically */
-    background-color: #E2E1C0;
+    background-color: #ffffff;
 }
 
 /* Navbar styling */
@@ -226,7 +226,7 @@ font-size: 45px;
     border-radius: 5px;
     justify-content: center;
     align-items: center;
-    font-size: 15px;
+    font-size: 20px;
     color: #333;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -298,4 +298,3 @@ font-size: 45px;
 .kpiCard h2{
     font-size: 17px;
 }
-

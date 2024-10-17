@@ -128,10 +128,10 @@ function View_a() {
                         <iframe src='http://localhost:8056/' height='100%' width='100%' > </iframe>
                     </div>
                     <div class="chart-box">
-                        <iframe src='http://localhost:8062/' height='100%' width='100%' > </iframe>
+                        <iframe src='http://localhost:8061/' height='100%' width='100%' > </iframe>
                     </div>
                     <div class="chart-box">
-                        <iframe src='http://localhost:8061/' height='100%' width='100%' > </iframe>
+                        <iframe src='http://localhost:8062/' height='100%' width='100%' > </iframe>
                     </div>
                     <div class="chart-box">
                         <iframe src='http://localhost:8063/' height='100%' width='100%' > </iframe>
