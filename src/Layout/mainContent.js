@@ -34,7 +34,10 @@ function Main_content() {
 
                         {/* <!-- Second Container - Last Updated --> */}
                         <div class="navbar-button bordered-button">
-                            <span>Last Updated</span>
+                        <div>
+                                <p>Last Updated</p>
+                                <p class='lastUpdate'>10/18/2024, 15:50:00</p>
+                            </div>
                         </div>
 
                         {/* <!-- Third Container - Call Out --> */}

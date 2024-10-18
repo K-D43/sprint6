@@ -72,7 +72,7 @@ function View_c() {
                 <div class="navbar">
                     <div class="navbar-heading">
                         Product Demand and Profitability Analysis
-                        <p>"Optimize costs and improve delivery times across routes and modes"</p>
+                        <p>"Identify top-selling products, profitable segments and growth regions"</p>
                     </div>
                     <div class="navbar-buttons">
                         {/*  First Container  */}

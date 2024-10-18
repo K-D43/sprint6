@@ -71,7 +71,7 @@ function View_a() {
                 <div class="navbar">
                     <div class="navbar-heading">
                         Inventory Management and Supplier Performance
-                        <p>"Optimize costs and improve delivery times across routes and modes"</p>
+                        <p>"Ensure stock availability and evaluate supplier reliability"</p>
                     </div>
 
                     <div class="navbar-buttons">
@@ -154,6 +154,7 @@ function View_a() {
 
                 <div class="chart-container">
                     <div class="chart-box">
+                        {/* <h1>Stock Level v/s Product Type</h1> */}
                         <iframe src='http://localhost:8060/' height='100%' width='100%' > </iframe>
                     </div>
                     <div class="chart-box">
