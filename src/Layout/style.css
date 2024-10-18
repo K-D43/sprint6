@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    /* background-color: #E2E1C0; */
     
 
 }
@@ -10,7 +11,7 @@ body {
     height: 100vh;
     background-color: #E2E1C0; /* Optional background color */
     overflow: auto; 
-    scrollbar-color: #800000;
+    
 }
 
 /* Left Sidebar styling */
@@ -68,12 +69,13 @@ nav ul li img{
 }
 
 /* Main Content and Navbar styling */
-.main-content {
+.main-contentMain {
      flex-grow: 1; /*Allow the main content to grow */
     display: inline-block;
     scrollbar-color: #800000;
     /* max-height: 50px; */
     /* flex-direction: column; Stack navbar and content vertically */
+    /* background-color: #E2E1C0; */
     background-color: #E2E1C0;
 }
 

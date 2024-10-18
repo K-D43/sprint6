@@ -10,6 +10,14 @@ import inventory from '../images/inventory.svg'
 import shipping from '../images/shipping.svg'
 import demand from '../images/demand.svg'
 import { useState, useEffect } from 'react';
+import home from '../images/home.svg'
+import steps from '../images/steps.svg'
+import goals from '../images/goals.svg'
+import alerts from '../images/alerts.svg'
+import settings from '../images/settings.svg'
+import ms_logo from '../images/ms_logo.svg'
+import { BrowserRouter, Router, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const ProgressBar = ({ duration, maxPercentage }) => {
@@ -44,12 +52,27 @@ const ProgressBar = ({ duration, maxPercentage }) => {
 function View_a() {
     return (
         <>
-            <LeftNavbar />
+            {/* <LeftNavbar /> */}
+            <div className="left-sidebarViewA">
+                <img src={ms_logo} alt="Logo" class="logo" />
+                <nav>
+                    <ul>
+                        <li><Link to="/" className="sidebar-icons" /><img src={home} alt="Home Icon" width="24" height="24" /></li>
+                        <li><Link to="" className="sidebar-icons" /><img src={steps} alt="Steps Icon" width="24" height="24" /></li>
+                        <li><Link to="" className="sidebar-icons" /><img src={goals} alt="Goals Icon" width="24" height="24" /></li>
+                        <li><Link to="" className="sidebar-icons" /><img src={alerts} alt="Alerts Icon" width="24" height="24" /></li>
+                        <li><Link to="" className="sidebar-icons" /><img src={settings} alt="Settings Icon" width="24" height="24" /></li>
+                    </ul>
+                </nav>
+            </div>
 
             <div class="main-content">
 
                 <div class="navbar">
-                    <div class="navbar-heading">Inventory Management and Supplier Performance</div>
+                    <div class="navbar-heading">
+                        Inventory Management and Supplier Performance
+                        <p>"Optimize costs and improve delivery times across routes and modes"</p>
+                    </div>
 
                     <div class="navbar-buttons">
                         {/*  First Container  */}
@@ -60,21 +83,27 @@ function View_a() {
 
                         {/* <!-- Second Container - Last Updated --> */}
                         <div class="navbar-button bordered-button">
-                            <span>Last Updated</span>
+                            <div>
+                                <p>Last Updated</p>
+                                <p class='lastUpdate'>10/18/2024, 15:50:00</p>
+                            </div>
+
+
                         </div>
 
                         {/* <!-- Third Container - Call Out --> */}
                         <div class="navbar-button bordered-button">
-                            <span>Call Out</span>
+                            <div>
+                                <p>Call Out</p>
+                                <p className='lastUpdate'>Filters are not working</p>
+                            </div>
                         </div>
 
                         <img src={logout} alt="Icon" class="icon-image" />
                     </div>
 
                 </div>
-                <div className='defOfHeading'>
-                    <p>"Ensure stock availability and evaluate supplier reliability"</p>
-                </div>
+
 
                 <div class="containerForKpi">
                     <div class="box">
@@ -99,7 +128,7 @@ function View_a() {
 
                             </div>
                             <div className='kpiValue'>
-                                <ProgressBar duration={5000} maxPercentage={100} />
+                                <ProgressBar duration={5000} maxPercentage={17.2} />
                                 <p className='units'> 17.02 </p><p className='units'>days</p>
 
                             </div>
@@ -114,7 +143,7 @@ function View_a() {
 
                             </div>
                             <div className='kpiValue'>
-                                <ProgressBar duration={5000} maxPercentage={100} />
+                                <ProgressBar duration={5000} maxPercentage={83.53} />
                                 <p className='units'> 83.53 </p><p className='units'>%</p>
 
                             </div>
@@ -125,16 +154,16 @@ function View_a() {
 
                 <div class="chart-container">
                     <div class="chart-box">
-                        <iframe src='http://localhost:8056/' height='100%' width='100%' > </iframe>
-                    </div>
-                    <div class="chart-box">
-                        <iframe src='http://localhost:8061/' height='100%' width='100%' > </iframe>
+                        <iframe src='http://localhost:8060/' height='100%' width='100%' > </iframe>
                     </div>
                     <div class="chart-box">
                         <iframe src='http://localhost:8062/' height='100%' width='100%' > </iframe>
                     </div>
                     <div class="chart-box">
-                        <iframe src='http://localhost:8063/' height='100%' width='100%' > </iframe>
+                        <iframe src='http://localhost:8061/' height='100%' width='100%' > </iframe>
+                    </div>
+                    <div class="chart-box">
+                        <iframe src='http://localhost:8056/' height='100%' width='100%' > </iframe>
                     </div>
                 </div>
 

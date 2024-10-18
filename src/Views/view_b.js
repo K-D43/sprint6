@@ -72,7 +72,10 @@ function View_b() {
             <div class="main-content">
 
                 <div class="navbar">
-                    <div class="navbar-heading">Shipping Efficiency and Cost Optimization</div>
+                    <div class="navbar-heading">
+                        Shipping Efficiency and Cost Optimization
+                        <p>"Optimize costs and improve delivery times across routes and modes"</p>
+                    </div>
                     <div class="navbar-buttons">
                         {/*  First Container  */}
                         <div class="navbar-button">
@@ -82,13 +85,21 @@ function View_b() {
 
                         {/* <!-- Second Container - Last Updated --> */}
                         <div class="navbar-button bordered-button">
-                            <span>Last Updated</span>
+                            <div>
+                                <p>Last Updated</p>
+                                <p class='lastUpdate'>10/18/2024, 15:50:00</p>
+                            </div>
+
                         </div>
 
 
                         {/* <!-- Third Container - Call Out --> */}
                         <div class="navbar-button bordered-button">
-                            <span>Call Out</span>
+                            <div>
+                                <p>Call Out</p>
+                                <p className='lastUpdate'>Filters are not working</p>
+                            </div>
+
                         </div>
 
                         <img src={logout} alt="Icon" class="icon-image" />
@@ -103,7 +114,7 @@ function View_b() {
 
                         </div>
                         <div className='kpiValue'>
-                            <ProgressBar duration={5000} maxPercentage={100} />
+                            <ProgressBar duration={5000} maxPercentage={5.18} />
                             <p className='units'> 5.18 </p><p className='units'>days</p>
 
                         </div>
@@ -117,7 +128,7 @@ function View_b() {
 
                             </div>
                             <div className='kpiValue'>
-                                <ProgressBar duration={5000} maxPercentage={100} />
+                                <ProgressBar duration={5000} maxPercentage={5.54} />
                                 <p className='units'>$</p><p className='units'> 5.54 </p><p className='units'>days</p>
 
                             </div>
@@ -131,7 +142,7 @@ function View_b() {
 
                             </div>
                             <div className='kpiValue'>
-                                <ProgressBar duration={5000} maxPercentage={100} />
+                                <ProgressBar duration={5000} maxPercentage={83.53} />
                                 <p className='units'> 83.53 </p><p className='units'>%</p>
 
                             </div>

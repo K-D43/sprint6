@@ -11,7 +11,7 @@ body {
 }
 
 /* Left Sidebar styling */
-.left-sidebar {
+.left-sidebarViewA {
     background-color: #fff; /* Sidebar background color */
     width: 80px; /* Sidebar width */
     padding: 0px 0; /* Vertical padding */
@@ -21,20 +21,9 @@ body {
      /* align-items: center; /*Center items horizontally */
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
     border-right: 4px solid #800000; /* Right border */
-    height: 700px; /*Stretch sidebar to full height */
+    height: 893px; /*Stretch sidebar to full height */
 }
-.left-sidebara {
-    background-color: #fff; /* Sidebar background color */
-    width: 80px; /* Sidebar width */
-    padding: 0px 0; /* Vertical padding */
-    display: inline-block;
-    /* flex-direction: column; */
-    justify-content: flex-start; /* Align items from the top */
-     /* align-items: center; /*Center items horizontally */
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
-    border-right: 4px solid #800000; /* Right border */
-    height: 800px; /*Stretch sidebar to full height */
-}
+
 
 .logo {
     width: 50px; /*Logo size*/
@@ -68,7 +57,7 @@ nav ul li img{
 .main-content {
      flex-grow: 1; /*Allow the main content to grow */
     display: inline-block;
-    
+    margin-bottom:45px;
     /* max-height: 50px; */
     /* flex-direction: column; Stack navbar and content vertically */
     background-color: #E2E1C0;
@@ -119,6 +108,9 @@ nav ul li img{
 
 .bordered-button {
     border: 2px solid #800000; /* Border for second and third buttons */
+}
+.navbar-button .bordered-button p{
+    font-size: 10px;
 }
 
 /* Icon image styling */

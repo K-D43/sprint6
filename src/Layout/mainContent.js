@@ -21,7 +21,7 @@ function Main_content() {
         <>
             <LeftNavbar />
 
-            <div class="main-content">
+            <div class="main-contentMain">
 
                 <div class="navbar">
                     <div class="navbar-heading">Overview</div>
